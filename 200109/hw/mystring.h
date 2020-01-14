@@ -27,7 +27,7 @@ public:
 	String &operator+=(const char *);
 
 	char &operator[](std::size_t index);
-//	const char &operator[](std::size_t index) const;//can this be distinguished?
+	const char &operator[](std::size_t index) const;//can this be distinguished?
 
 	std::size_t size() const;
 	const char* c_str() const;

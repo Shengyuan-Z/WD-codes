@@ -39,13 +39,13 @@ char & String::operator[](std::size_t index)
 	cout << " char "<<endl;
 	return nll;
 }
-/*
+
 const char & String::operator[](std::size_t index) const
 {
 	cout<<endl<< "const char "<<endl;
 	return _pstr[index];
 }
-*/
+
 
 std::size_t String::size() const
 {

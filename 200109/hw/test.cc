@@ -17,24 +17,22 @@ int main(void)
 	cin>>s1;	
 	String s2("Hello");
 	String s3 = s2;
-	const String s4("const hello");
+	//const String s4("const hello");
 
-	cout<< "s1: " << s1 << endl
-		<< "s2: " << s2 << endl
-		<< "s3: " << s3 << endl
-		<< "s3: " << s4 << endl;
+	cout<< "s1: " << s1 << "\t" << s1.getNum() << endl
+		<< "s2: " << s2 << "\t" << s2.getNum() << endl
+		<< "s3: " << s3 << "\t" << s3.getNum() << endl;
+	//	<< "s3: " << s4 << "\t" << s4.getNum() << endl;
 
 	cout << endl;
-/*
-	cout <<" s1 == s2 ? "<< (s1 == s2? 'T':'F')<< endl
-		 <<" s2 == s3 ? "<< (s2 == s3? 'T':'F')<< endl
-		 <<" s1 >  s2 ?" << (s1 >  s2? 'T':'F')<< endl
-		 <<" s2 >= s3 ?" << (s2 >= s3? 'T':'F')<< endl;
-*/		 
 	
-	cout<<"char s1[0]: " << s1[0] << endl;
-	cout<<"const char s4[0]: " << s4[0] <<endl;
-//	cout<<s1 + s2 << endl;
-//	cout<<s1 + "hi"<<endl;
+	
+	
+
+
+
+
+
+	
 	return 0;
 }
