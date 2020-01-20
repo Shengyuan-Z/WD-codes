@@ -28,7 +28,8 @@ using std::cerr;
 using std::cout;
 using std::endl;
 
-string wash(string);
+string wash(string);// better to put it inside
+                    // coz it's customized for class Lookup 
 class Lookup
 {
 public:
